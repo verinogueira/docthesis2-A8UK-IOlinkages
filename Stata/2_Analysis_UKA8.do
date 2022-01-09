@@ -14,8 +14,7 @@ clear all
 set more off
 
 * set current directory *
-*cd "C:\YourPath\..."
-cd "C:\Users\vd16509\OneDrive - University of Essex\RESEARCH\PUBLISHING\Chapter2\Codes"
+*cd "C:\YourPath"
 ****************************************************************************************
 
 
