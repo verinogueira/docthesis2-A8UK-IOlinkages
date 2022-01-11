@@ -8,10 +8,22 @@ WORK IN PROGRESS: ignore below here
 ******
 
 
-Data sources are Lee and Lee (2016), Barro and Lee (2001), The World Bank (2017), Feenstra, Inklaar, and Timmer (2015). The model is calibrated using parameters from Bils and Klenow (2000), Montenegro and Patrinos (2014), Acemoglu and Autor (2011) and Ciccone and Peri (2005). All sources are presented in the paper too. 
+Data sources are .... All sources are presented in the paper too. 
 
 The construction of the dataset, analysis and exhibits use Stata. Code for data cleaning and analysis is provided as part of the replication package. The main file runs all of the code to generate the data for the 10 figures and 3 tables in the paper. The replicator can expect the code to run for a couple of minutes.
  
+ 
+### Data Sources
+
+#### UK Data Service
+
+The paper uses data from the Annual Population Survey Household Dataset, which is distributed by the UK Data Service (Office for National Statistics, 2015). Data is subject to a redistribution restriction, but can be freely downloaded from https://ukdataservice.ac.uk/. Search for `SN 7750` then click at `Access data`. Fill out the registration form, including a brief description of the project, and agree to the conditions of use. Note: "the data files themselves are not redistributed" and other conditions. Save the file in the directory `RawData`. 
+
+Datafile: `RawData/apsp_jd14_eul_pwta17.dta` (not provided)
+
+
+Office for National Statistics, Social Survey Division. (2015). Integrated Household Survey, January - December, 2014. [data collection]. UK Data Service. SN: 7839, DOI: 10.5255/UKDA-SN-7839-1
+
 
 
 
